@@ -1,0 +1,299 @@
+2025-07-26 12:46:10,596 - __main__ - INFO - Gemini API configured successfully.
+2025-07-26 12:46:10,597 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 12:46:10,599 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 12:46:11,931 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.231:5000
+2025-07-26 12:46:11,931 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 12:52:55,864 - __main__ - INFO - Received SMS from +255756870373: hi
+2025-07-26 12:52:57,475 - __main__ - ERROR - SMS sending failed to +255756870373: The supplied authentication is invalid
+2025-07-26 12:52:57,482 - __main__ - INFO - New SMS session started for +255756870373. Initial message sent.
+2025-07-26 12:52:57,487 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 12:52:57] "POST /sms HTTP/1.1" 200 -
+2025-07-26 12:56:44,746 - __main__ - INFO - Received SMS from +255756870373: hi
+2025-07-26 12:56:47,567 - __main__ - ERROR - SMS sending failed to +255756870373: The supplied authentication is invalid
+2025-07-26 12:56:47,569 - __main__ - INFO - New SMS session started for +255756870373. Initial message sent.
+2025-07-26 12:56:47,571 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 12:56:47] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:02:28,284 - __main__ - INFO - Received SMS from +255756870373: hi
+2025-07-26 13:02:31,742 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 70.0000 Message parts: 2', 'Recipients': [{'cost': 'TZS 70.0000', 'messageId': 'ATXid_aa41cea66a19e9fc3e8c3e3484155a49', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:02:31,744 - __main__ - INFO - New SMS session started for +255756870373. Initial message sent.
+2025-07-26 13:02:31,745 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:02:31] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:07:24,874 - __main__ - INFO - Gemini API configured successfully.
+2025-07-26 13:07:24,875 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 13:07:24,878 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 13:07:24,910 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 13:07:24,911 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 13:08:21,256 - __main__ - INFO - Received SMS from +255756870373: hi
+2025-07-26 13:08:23,899 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 70.0000 Message parts: 2', 'Recipients': [{'cost': 'TZS 70.0000', 'messageId': 'ATXid_5ebc7b29c9b321d9237ddc00b3694975', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:08:23,901 - __main__ - INFO - New SMS session started for +255756870373. Initial message sent.
+2025-07-26 13:08:23,903 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:08:23] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:11:12,876 - __main__ - INFO - Received SMS from +255756870373: je itakuwa sawa kulima mahindi mwezi huu kulingangana na hali ya hewa
+2025-07-26 13:11:12,877 - __main__ - ERROR - Gemini API call failed for SMS: GenerativeModel.start_chat() got an unexpected keyword argument 'system_instruction'
+2025-07-26 13:11:14,118 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 35.0000 Message parts: 1', 'Recipients': [{'cost': 'TZS 35.0000', 'messageId': 'ATXid_19579b6710c53f4b25e324116bb1488b', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:11:14,121 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:11:14] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:11:56,262 - __main__ - INFO - Received SMS from +255756870373: je ni sawa kulima mahindi
+2025-07-26 13:11:56,263 - __main__ - ERROR - Gemini API call failed for SMS: GenerativeModel.start_chat() got an unexpected keyword argument 'system_instruction'
+2025-07-26 13:11:57,667 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 35.0000 Message parts: 1', 'Recipients': [{'cost': 'TZS 35.0000', 'messageId': 'ATXid_7b960659dcd2160951c9858d7f846c32', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:11:57,668 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:11:57] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:32:48,059 - __main__ - INFO - Received SMS from +255756870373: hi
+2025-07-26 13:32:50,084 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 70.0000 Message parts: 2', 'Recipients': [{'cost': 'TZS 70.0000', 'messageId': 'ATXid_4f961a70f41464ad510e88db99432a85', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:32:50,085 - __main__ - INFO - New SMS session started for +255756870373. Initial message sent.
+2025-07-26 13:32:50,087 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:32:50] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:33:41,822 - __main__ - INFO - Received SMS from +255756870373: nipe ushwuri wa kulima mwhindi
+2025-07-26 13:33:41,823 - __main__ - ERROR - Gemini API call failed for SMS: GenerativeModel.start_chat() got an unexpected keyword argument 'system_instruction'
+2025-07-26 13:33:42,613 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 35.0000 Message parts: 1', 'Recipients': [{'cost': 'TZS 35.0000', 'messageId': 'ATXid_fb4856722808870d9731def6d7417737', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:33:42,615 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:33:42] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:48:05,887 - __main__ - INFO - Gemini API configured successfully.
+2025-07-26 13:48:05,888 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 13:48:05,891 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 13:48:05,935 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 13:48:05,936 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 13:48:56,165 - __main__ - INFO - Received SMS from +255756870373: hi
+2025-07-26 13:48:57,165 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 70.0000 Message parts: 2', 'Recipients': [{'cost': 'TZS 70.0000', 'messageId': 'ATXid_fdea90ae12f7cec212efeada2a99f8ba', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:48:57,166 - __main__ - INFO - New SMS session started for +255756870373. Initial message sent.
+2025-07-26 13:48:57,169 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:48:57] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:49:21,454 - __main__ - INFO - Received SMS from +255756870373: nipe ushauri kuus kilimo cha mahindi
+2025-07-26 13:49:30,273 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 665.0000 Message parts: 19', 'Recipients': [{'cost': 'TZS 665.0000', 'messageId': 'ATXid_2f1f96d28d79cd7fd8b376204a434b35', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:49:30,276 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:49:30] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:50:31,190 - __main__ - INFO - Received SMS from +255756870373: je ni miezi gan kulingana na hali ya hewa ya arusha na utaje kipindi chenyew katika mwaka huu naweza fanya kilimo
+2025-07-26 13:50:36,266 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 385.0000 Message parts: 11', 'Recipients': [{'cost': 'TZS 385.0000', 'messageId': 'ATXid_71c72f17aae571c6366656afee7112b9', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 13:50:36,268 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:50:36] "POST /sms HTTP/1.1" 200 -
+2025-07-26 13:51:32,780 - __main__ - INFO - USSD Request - SessionID: ATUid_f00d5af237d8723c39f5808f6916848a, Phone: +255756870373, Text: ''
+2025-07-26 13:51:32,781 - __main__ - INFO - USSD Response - SessionID: ATUid_f00d5af237d8723c39f5808f6916848a, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 13:51:32,783 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:51:32] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 13:51:38,610 - __main__ - INFO - USSD Request - SessionID: ATUid_f00d5af237d8723c39f5808f6916848a, Phone: +255756870373, Text: '3'
+2025-07-26 13:51:39,998 - __main__ - INFO - USSD Response - SessionID: ATUid_f00d5af237d8723c39f5808f6916848a, Response: 'END Hali ya hewa Dar es Salaam:
+Joto: 30.04°C, Unyevunyevu: 40%
+Maelezo: Scattered clouds
+Upepo: 6.13 m/s
+Utabiri: Detailed forecast unavailable without a separate forecast API call, but generally fair for the next few days.'
+2025-07-26 13:51:40,000 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:51:40] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 13:51:55,401 - __main__ - INFO - USSD Request - SessionID: ATUid_ff30031735a691de7db87938c59109f7, Phone: +255756870373, Text: ''
+2025-07-26 13:51:55,403 - __main__ - INFO - USSD Response - SessionID: ATUid_ff30031735a691de7db87938c59109f7, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 13:51:55,405 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:51:55] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 13:52:02,947 - __main__ - INFO - USSD Request - SessionID: ATUid_ff30031735a691de7db87938c59109f7, Phone: +255756870373, Text: '4'
+2025-07-26 13:52:02,948 - __main__ - INFO - USSD Response - SessionID: ATUid_ff30031735a691de7db87938c59109f7, Response: 'CON Chagua aina ya Taarifa:
+1. Uhifadhi wa Nafaka
+2. Usafirishaji
+99. Rudi Menu Kuu'
+2025-07-26 13:52:02,950 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:52:02] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 13:52:08,156 - __main__ - INFO - USSD Request - SessionID: ATUid_ff30031735a691de7db87938c59109f7, Phone: +255756870373, Text: '4*1'
+2025-07-26 13:52:08,157 - __main__ - INFO - USSD Response - SessionID: ATUid_ff30031735a691de7db87938c59109f7, Response: 'END Vituo vikuu vya kuhifadhia nafaka karibu na Dar es Salaam ni maghala ya NFRA Pugu na Kurasini. Uwezo hubadilika kulingana na msimu. Wasiliana nao moja kwa moja kwa upatikanaji.
+Asante kwa kutumia Kilimo Smart!'
+2025-07-26 13:52:08,161 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:52:08] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 13:52:14,923 - __main__ - INFO - USSD Request - SessionID: ATUid_b81cb2d3af7bf07cc155c34da5a829c5, Phone: +255756870373, Text: ''
+2025-07-26 13:52:14,924 - __main__ - INFO - USSD Response - SessionID: ATUid_b81cb2d3af7bf07cc155c34da5a829c5, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 13:52:14,927 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:52:14] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 13:52:20,090 - __main__ - INFO - USSD Request - SessionID: ATUid_b81cb2d3af7bf07cc155c34da5a829c5, Phone: +255756870373, Text: '2'
+2025-07-26 13:52:20,091 - __main__ - INFO - USSD Response - SessionID: ATUid_b81cb2d3af7bf07cc155c34da5a829c5, Response: 'CON Andika swali lako la kilimo:
+(Mfano: Nipe ushauri wa kulima mahindi mkoani Morogoro?)
+99. Rudi Menu Kuu'
+2025-07-26 13:52:20,092 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:52:20] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 13:52:47,410 - __main__ - INFO - USSD Request - SessionID: ATUid_b81cb2d3af7bf07cc155c34da5a829c5, Phone: +255756870373, Text: '2*nipe ushauri wa mchele mkoani arusha'
+2025-07-26 13:52:47,413 - __main__ - ERROR - Error calling Gemini API: Unknown field for GenerateContentRequest: system_instruction
+2025-07-26 13:52:47,414 - __main__ - INFO - USSD Response - SessionID: ATUid_b81cb2d3af7bf07cc155c34da5a829c5, Response: 'END Samahani, kuna tatizo la kiufundi na huduma ya ushauri. Tafadhali jaribu tena baadae.
+Asante kwa kutumia Kilimo Smart!'
+2025-07-26 13:52:47,416 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 13:52:47] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:13:45,992 - __main__ - INFO - Gemini API configured successfully.
+2025-07-26 14:13:45,992 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 14:13:45,996 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 14:13:46,029 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:13:46,029 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:15:03,813 - __main__ - INFO - USSD Request - SessionID: ATUid_e3ad0f346f9ea1dc2630750f79b781f4, Phone: +255756870373, Text: ''
+2025-07-26 14:15:03,814 - __main__ - INFO - USSD Response - SessionID: ATUid_e3ad0f346f9ea1dc2630750f79b781f4, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:15:03,817 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:15:03] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:15:09,467 - __main__ - INFO - USSD Request - SessionID: ATUid_e3ad0f346f9ea1dc2630750f79b781f4, Phone: +255756870373, Text: '2'
+2025-07-26 14:15:09,469 - __main__ - INFO - USSD Response - SessionID: ATUid_e3ad0f346f9ea1dc2630750f79b781f4, Response: 'CON Andika swali lako la kilimo:
+(Mfano: Nipe ushauri wa kulima mahindi mkoani Morogoro?)
+99. Rudi Menu Kuu'
+2025-07-26 14:15:09,476 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:15:09] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:15:27,688 - __main__ - INFO - USSD Request - SessionID: ATUid_e3ad0f346f9ea1dc2630750f79b781f4, Phone: +255756870373, Text: '2*nipe ushauri wa mahindi mkoanimorogoro'
+2025-07-26 14:15:27,691 - __main__ - ERROR - Error calling Gemini API: Unknown field for GenerateContentRequest: system_instruction
+2025-07-26 14:15:28,678 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 35.0000 Message parts: 1', 'Recipients': [{'cost': 'TZS 35.0000', 'messageId': 'ATXid_08c45553107a62256cef25c6c51bd8ad', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:15:28,682 - __main__ - INFO - USSD Response - SessionID: ATUid_e3ad0f346f9ea1dc2630750f79b781f4, Response: 'END Utapokea ujumbe mfupi wa ushauri wa kilimo katika simu yako hivi punde. Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:15:28,686 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:15:28] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:17:44,042 - __main__ - INFO - Gemini API configured successfully.
+2025-07-26 14:17:44,043 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 14:17:44,047 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 14:17:44,089 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:17:44,090 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:17:49,487 - __main__ - INFO - USSD Request - SessionID: ATUid_9655ec88ab7280b59e7e33b90b0b885b, Phone: +255756870373, Text: ''
+2025-07-26 14:17:49,488 - __main__ - INFO - USSD Response - SessionID: ATUid_9655ec88ab7280b59e7e33b90b0b885b, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:17:49,491 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:17:49] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:17:55,397 - __main__ - INFO - USSD Request - SessionID: ATUid_9655ec88ab7280b59e7e33b90b0b885b, Phone: +255756870373, Text: '3'
+2025-07-26 14:17:56,396 - __main__ - ERROR - Error calling Gemini API: Unknown field for GenerateContentRequest: system_instruction
+2025-07-26 14:17:57,349 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 105.0000 Message parts: 3', 'Recipients': [{'cost': 'TZS 105.0000', 'messageId': 'ATXid_4edf384dada211da7cc9f54339d6776c', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:17:57,351 - __main__ - INFO - USSD Response - SessionID: ATUid_9655ec88ab7280b59e7e33b90b0b885b, Response: 'END Utapokea ujumbe mfupi wa hali ya hewa na ushauri wa kilimo katika simu yako hivi punde. Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:17:57,353 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:17:57] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:19:13,725 - __main__ - ERROR - Failed to configure Gemini API: GenerativeModel.__init__() got an unexpected keyword argument 'system_instruction'. Gemini features will be unavailable.
+2025-07-26 14:19:13,726 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 14:19:13,729 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 14:19:13,761 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:19:13,762 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:19:37,474 - __main__ - INFO - USSD Request - SessionID: ATUid_0e7dc2866667d6589fc8d6498d5f9e84, Phone: +255756870373, Text: ''
+2025-07-26 14:19:37,475 - __main__ - INFO - USSD Response - SessionID: ATUid_0e7dc2866667d6589fc8d6498d5f9e84, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:19:37,481 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:19:37] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:19:43,936 - __main__ - INFO - USSD Request - SessionID: ATUid_0e7dc2866667d6589fc8d6498d5f9e84, Phone: +255756870373, Text: '3'
+2025-07-26 14:19:46,210 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 105.0000 Message parts: 3', 'Recipients': [{'cost': 'TZS 105.0000', 'messageId': 'ATXid_44b1fe744ad11b42ae873c920b53561c', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:19:46,211 - __main__ - INFO - USSD Response - SessionID: ATUid_0e7dc2866667d6589fc8d6498d5f9e84, Response: 'END Utapokea ujumbe mfupi wa hali ya hewa na ushauri wa kilimo katika simu yako hivi punde. Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:19:46,213 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:19:46] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:22:03,231 - __main__ - INFO - USSD Request - SessionID: ATUid_412b90186a7dcfd58fcb79c75cb9c419, Phone: +255756870373, Text: ''
+2025-07-26 14:22:03,232 - __main__ - INFO - USSD Response - SessionID: ATUid_412b90186a7dcfd58fcb79c75cb9c419, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:22:03,234 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:22:03] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:22:06,456 - __main__ - INFO - USSD Request - SessionID: ATUid_412b90186a7dcfd58fcb79c75cb9c419, Phone: +255756870373, Text: '1'
+2025-07-26 14:22:06,457 - __main__ - INFO - USSD Response - SessionID: ATUid_412b90186a7dcfd58fcb79c75cb9c419, Response: 'CON Chagua Zao:
+1. Mahindi
+2. Maharage
+3. Mchele
+4. Nyanya
+99. Rudi Menu Kuu'
+2025-07-26 14:22:06,459 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:22:06] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:22:11,586 - __main__ - INFO - USSD Request - SessionID: ATUid_412b90186a7dcfd58fcb79c75cb9c419, Phone: +255756870373, Text: '1*1'
+2025-07-26 14:22:11,587 - __main__ - INFO - USSD Response - SessionID: ATUid_412b90186a7dcfd58fcb79c75cb9c419, Response: 'END Bei ya sasa ya Maize Dar es Salaam: 780 TZS/kg.
+Utabiri wa Maize: Ongezeko kidogo la 3-5% linatarajiwa katika wiki mbili zijazo kutokana na mahitaji ya msimu.
+Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:22:11,589 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:22:11] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:23:15,755 - __main__ - INFO - USSD Request - SessionID: ATUid_d2565489f3eac16f4f91ff0915a274e7, Phone: +255756870373, Text: ''
+2025-07-26 14:23:15,757 - __main__ - INFO - USSD Response - SessionID: ATUid_d2565489f3eac16f4f91ff0915a274e7, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:23:15,759 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:23:15] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:26:20,954 - __main__ - ERROR - Failed to configure Gemini API: GenerativeModel.__init__() got an unexpected keyword argument 'system_instruction'. Gemini features will be unavailable.
+2025-07-26 14:26:20,954 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 14:26:20,958 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 14:26:20,993 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:26:20,994 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:26:28,713 - __main__ - INFO - USSD Request - SessionID: ATUid_f0290de1cfc38f93d8e5d7c646985887, Phone: +255756870373, Text: ''
+2025-07-26 14:26:28,714 - __main__ - INFO - USSD Response - SessionID: ATUid_f0290de1cfc38f93d8e5d7c646985887, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:26:28,717 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:26:28] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:26:34,009 - __main__ - INFO - USSD Request - SessionID: ATUid_f0290de1cfc38f93d8e5d7c646985887, Phone: +255756870373, Text: '3'
+2025-07-26 14:26:36,365 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 105.0000 Message parts: 3', 'Recipients': [{'cost': 'TZS 105.0000', 'messageId': 'ATXid_0cc0973c529fccc56ec2967839092453', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:26:36,366 - __main__ - INFO - USSD Response - SessionID: ATUid_f0290de1cfc38f93d8e5d7c646985887, Response: 'END Utapokea ujumbe mfupi wa hali ya hewa na ushauri wa kilimo katika simu yako hivi punde. Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:26:36,369 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:26:36] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:30:06,972 - __main__ - ERROR - Failed to configure Gemini API: GenerativeModel.__init__() got an unexpected keyword argument 'system_instruction'. Gemini features will be unavailable.
+2025-07-26 14:30:06,973 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 14:30:06,976 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 14:30:07,009 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:30:07,010 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:30:46,734 - __main__ - INFO - USSD Request - SessionID: ATUid_fcfb693789976761a176bfcf979b21c3, Phone: +255756870373, Text: ''
+2025-07-26 14:30:46,735 - __main__ - INFO - USSD Response - SessionID: ATUid_fcfb693789976761a176bfcf979b21c3, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:30:46,739 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:30:46] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:30:51,914 - __main__ - INFO - USSD Request - SessionID: ATUid_fcfb693789976761a176bfcf979b21c3, Phone: +255756870373, Text: '3'
+2025-07-26 14:30:55,750 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 105.0000 Message parts: 3', 'Recipients': [{'cost': 'TZS 105.0000', 'messageId': 'ATXid_30bb58cbb0dcb0ee25c382d474a5c625', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:30:55,751 - __main__ - INFO - USSD Response - SessionID: ATUid_fcfb693789976761a176bfcf979b21c3, Response: 'END Utapokea ujumbe mfupi wa hali ya hewa na ushauri wa kilimo katika simu yako hivi punde. Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:30:55,753 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:30:55] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:31:25,811 - __main__ - INFO - USSD Request - SessionID: ATUid_2e61511c43a359e5fce83f7cc4687f91, Phone: +255756870373, Text: ''
+2025-07-26 14:31:25,812 - __main__ - INFO - USSD Response - SessionID: ATUid_2e61511c43a359e5fce83f7cc4687f91, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:31:25,814 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:31:25] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:31:31,385 - __main__ - INFO - USSD Request - SessionID: ATUid_2e61511c43a359e5fce83f7cc4687f91, Phone: +255756870373, Text: '2'
+2025-07-26 14:31:31,386 - __main__ - INFO - USSD Response - SessionID: ATUid_2e61511c43a359e5fce83f7cc4687f91, Response: 'CON Andika swali lako la kilimo:
+(Mfano: Nipe ushauri wa kulima mahindi mkoani Morogoro?)
+99. Rudi Menu Kuu'
+2025-07-26 14:31:31,389 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:31:31] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:31:41,426 - __main__ - INFO - USSD Request - SessionID: ATUid_2e61511c43a359e5fce83f7cc4687f91, Phone: +255756870373, Text: '2*nataka kulima mahindi'
+2025-07-26 14:31:41,428 - __main__ - INFO - USSD AI Query received from +255756870373: 'nataka kulima mahindi'
+2025-07-26 14:31:41,430 - __main__ - INFO - Gemini AI response for USSD query: Samahani, huduma ya ushauri wa AI haipatikani kwa sasa. Tafadhali jaribu tena baadaye....
+2025-07-26 14:31:42,873 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 35.0000 Message parts: 1', 'Recipients': [{'cost': 'TZS 35.0000', 'messageId': 'ATXid_6b93c99540d5b15ea2042da6c01f539e', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:31:42,875 - __main__ - INFO - USSD Response - SessionID: ATUid_2e61511c43a359e5fce83f7cc4687f91, Response: 'END Utapokea ujumbe mfupi wa ushauri wa kilimo katika simu yako hivi punde. Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:31:42,876 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:31:42] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:31:54,723 - __main__ - INFO - Received SMS from +255756870373: hi
+2025-07-26 14:31:55,785 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 70.0000 Message parts: 2', 'Recipients': [{'cost': 'TZS 70.0000', 'messageId': 'ATXid_4eaee468c49b0aceed8b13e37ba16db5', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:31:55,787 - __main__ - INFO - New SMS session started for +255756870373. Initial message sent.
+2025-07-26 14:31:55,789 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:31:55] "POST /sms HTTP/1.1" 200 -
+2025-07-26 14:32:07,592 - __main__ - INFO - Received SMS from +255756870373: nalimaje mahindi
+2025-07-26 14:32:08,644 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 35.0000 Message parts: 1', 'Recipients': [{'cost': 'TZS 35.0000', 'messageId': 'ATXid_df0ddfc68baf415975b52ee8e2ca1dde', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:32:08,646 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:32:08] "POST /sms HTTP/1.1" 200 -
+2025-07-26 14:36:48,934 - __main__ - ERROR - Failed to configure Gemini API: GenerativeModel.__init__() got an unexpected keyword argument 'system_instruction'. Gemini features will be unavailable.
+2025-07-26 14:36:48,934 - __main__ - INFO - Africa's Talking initialized.
+2025-07-26 14:36:48,938 - __main__ - INFO - Starting Kilimo Smart Agricultural Advisory System...
+2025-07-26 14:36:48,969 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:36:48,970 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:37:19,257 - __main__ - INFO - USSD Request - SessionID: ATUid_f269ef29c35d10161d9571adcff8482a, Phone: +255756870373, Text: ''
+2025-07-26 14:37:19,258 - __main__ - INFO - USSD Response - SessionID: ATUid_f269ef29c35d10161d9571adcff8482a, Response: 'CON Karibu Kilimo Smart! Chagua Huduma:
+1. Bei za Mazao
+2. Ushauri wa Kilimo (AI)
+3. Tahadhari ya Hali ya Hewa
+4. Taarifa za Uhifadhi na Usafirishaji
+5. Toka'
+2025-07-26 14:37:19,261 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:37:19] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:37:25,378 - __main__ - INFO - USSD Request - SessionID: ATUid_f269ef29c35d10161d9571adcff8482a, Phone: +255756870373, Text: '3'
+2025-07-26 14:37:28,141 - __main__ - INFO - SMS sent to +255756870373. Response: {'SMSMessageData': {'Message': 'Sent to 1/1 Total Cost: TZS 105.0000 Message parts: 3', 'Recipients': [{'cost': 'TZS 105.0000', 'messageId': 'ATXid_bcd4a230d3dbf229ce46e75a1e1ee826', 'number': '+255756870373', 'status': 'Success', 'statusCode': 101}]}}
+2025-07-26 14:37:28,142 - __main__ - INFO - USSD Response - SessionID: ATUid_f269ef29c35d10161d9571adcff8482a, Response: 'END Utapokea ujumbe mfupi wa hali ya hewa na ushauri wa kilimo katika simu yako hivi punde. Asante kwa kutumia Kilimo Smart!'
+2025-07-26 14:37:28,143 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:37:28] "POST /ussd HTTP/1.1" 200 -

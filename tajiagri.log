@@ -1,0 +1,68 @@
+2025-07-26 14:42:31,005 - __main__ - WARNING - Gemini AI disabled - no API key
+2025-07-26 14:42:31,026 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:42:31,026 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:43:01,262 - app - ERROR - Exception on /ussd [POST]
+Traceback (most recent call last):
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\connection.py", line 385, in connect_check_health
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\retry.py", line 87, in call_with_retry
+    return do()
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\connection.py", line 386, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\connection.py", line 797, in _connect
+    raise err
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\connection.py", line 781, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\ticketing\agrisolution\app.py", line 151, in tajiagri_ussd
+    if not redis_client.exists(session_key):
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\client.py", line 623, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\client.py", line 629, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\utils.py", line 191, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phili\AppData\Roaming\Python\Python313\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-07-26 14:43:01,305 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:43:01] "[35m[1mPOST /ussd HTTP/1.1[0m" 500 -
+2025-07-26 14:46:29,520 - __main__ - WARNING - Gemini AI disabled - no API key
+2025-07-26 14:46:29,563 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-07-26 14:46:29,564 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 14:46:39,838 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:46:39] "POST /ussd HTTP/1.1" 200 -
+2025-07-26 14:46:45,758 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2025 14:46:45] "POST /ussd HTTP/1.1" 200 -
